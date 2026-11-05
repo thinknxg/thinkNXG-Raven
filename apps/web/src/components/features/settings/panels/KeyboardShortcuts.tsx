@@ -180,7 +180,7 @@ export const KeyboardShortcuts = () => {
         },
         {
             title: _("Browser"),
-            note: _("Your browser provides these. Raven keeps every channel and page in the history, so they work as you would expect."),
+            note: _("Your browser provides these. thinkNXG Raven keeps every channel and page in the history, so they work as you would expect."),
             shortcuts: [
                 {
                     keys: isMac
@@ -204,7 +204,7 @@ export const KeyboardShortcuts = () => {
         <>
             <SettingsPanelHeader>
                 <SettingsPanelTitle>{_("Keyboard Shortcuts")}</SettingsPanelTitle>
-                <SettingsPanelDescription>{_("Get around Raven quickly with keyboard shortcuts.")}</SettingsPanelDescription>
+                <SettingsPanelDescription>{_("Get around thinkNXG Raven quickly with keyboard shortcuts.")}</SettingsPanelDescription>
             </SettingsPanelHeader>
             <SettingsPanelContent className="min-h-0 gap-6">
                 {groups.map((group) => (

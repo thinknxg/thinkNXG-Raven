@@ -167,7 +167,7 @@
   },
   {
    "default": "0",
-   "description": " Enable this if you want the bot to be able to process files like Excel sheets or data from Insights.\n                    <br>\n                    OpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this.",
+   "description": " Enable this if you want the bot to be able to process files like Excel sheets or data from thinkNXG Insights.\n                    <br>\n                    OpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this.",
    "documentation_url": "https://platform.openai.com/docs/assistants/tools/code-interpreter",
    "fieldname": "enable_code_interpreter",
    "fieldtype": "Check",

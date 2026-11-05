@@ -17,7 +17,7 @@ const Appearance = () => {
         <>
             <SettingsPanelHeader>
                 <SettingsPanelTitle>{_("Appearance")}</SettingsPanelTitle>
-                <SettingsPanelDescription>{_("Configure how you want Raven to look.")}</SettingsPanelDescription>
+                <SettingsPanelDescription>{_("Configure how you want thinkNXG Raven to look.")}</SettingsPanelDescription>
             </SettingsPanelHeader>
             <SettingsPanelContent>
 

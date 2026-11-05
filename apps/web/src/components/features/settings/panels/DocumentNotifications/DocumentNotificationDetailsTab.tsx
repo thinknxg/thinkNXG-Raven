@@ -77,11 +77,11 @@ export const DocumentNotificationDetailsTab = ({ isEdit }: { isEdit: boolean }) 
                     {_("You can also use functions like")}{" "}
                     <code className="text-ink-gray-7">{"{{ frappe.utils.today() }}"}</code>{" — "}
                     <a
-                        href="https://docs.frappe.io/framework/user/en/api/jinja"
+                        href="https://docs.thinknxg.com/thinknxgframework/user/en/api/jinja"
                         target="_blank" rel="noreferrer"
                         className="underline underline-offset-2 hover:text-ink-gray-8"
                     >
-                        {_("see Frappe's Jinja documentation")}
+                        {_("see thinkNXG Framework's Jinja documentation")}
                     </a>
                 </p>
             </div>

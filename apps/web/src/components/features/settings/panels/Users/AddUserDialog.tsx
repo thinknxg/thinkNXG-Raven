@@ -62,7 +62,7 @@ const AddUserDialog = () => {
             <DialogContent className="sm:max-w-[480px] top-[10vh] translate-y-0 max-h-[80vh]">
                 <DialogHeader>
                     <DialogTitle>{_("Add User")}</DialogTitle>
-                    <DialogDescription>{_("Invite a new user to Raven.")}</DialogDescription>
+                    <DialogDescription>{_("Invite a new user to thinkNXG Raven.")}</DialogDescription>
                 </DialogHeader>
                 {open && <UserForm onClose={() => setOpen(false)} />}
             </DialogContent>
@@ -129,7 +129,7 @@ const UserForm = ({ onClose }: { onClose: VoidFunction }) => {
 
     const onSubmit = (data: UserFormFields) => {
         inviteUser(data).then(() => {
-            toast.success(userExists ? _("User added to Raven") : _("Invite sent"))
+            toast.success(userExists ? _("User added to thinkNXG Raven") : _("Invite sent"))
             onClose()
         })
     }
@@ -164,7 +164,7 @@ const UserForm = ({ onClose }: { onClose: VoidFunction }) => {
                                     />
                                 </FormControl>
                                 {ravenUserExists && !isSelf ? (
-                                    <FormMessage>{_("This user is already on Raven.")}</FormMessage>
+                                    <FormMessage>{_("This user is already on thinkNXG Raven.")}</FormMessage>
                                 ) : (
                                     <FormMessage />
                                 )}
@@ -218,7 +218,7 @@ const UserForm = ({ onClose }: { onClose: VoidFunction }) => {
                     )}
                     <p className="text-p-sm text-ink-gray-6">
                         {userExists
-                            ? _("This user already exists in Frappe. Add them to Raven?")
+                            ? _("This user already exists in thinkNXG. Add them to thinkNXG Raven?")
                             : _("An invite will be sent on their email.")}
                     </p>
                 </DialogBody>

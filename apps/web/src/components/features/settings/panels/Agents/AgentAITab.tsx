@@ -80,7 +80,7 @@ const AgentAITab = () => {
                             docUrl="https://platform.openai.com/docs/assistants/tools/code-interpreter"
                             docTitle={_("View OpenAI documentation about Code Interpreter")}
                             formDescription={_(
-                                "Enable this if you want the bot to be able to process files like Excel sheets or data from Insights.\n\nOpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this."
+                                "Enable this if you want the bot to be able to process files like Excel sheets or data from thinkNXG Insights.\n\nOpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this."
                             )}
                         />
                     </div>

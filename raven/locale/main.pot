@@ -20,7 +20,7 @@ msgstr ""
 #. Bot'
 #: raven/raven_bot/doctype/raven_bot/raven_bot.json
 msgid ""
-" Enable this if you want the bot to be able to process files like Excel sheets or data from Insights.\n"
+" Enable this if you want the bot to be able to process files like Excel sheets or data from thinkNXG Insights.\n"
 "                    <br>\n"
 "                    OpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this."
 msgstr ""
@@ -161,12 +161,12 @@ msgstr ""
 
 #. Content of the 'html_xuuw' (HTML) field in DocType 'Raven User'
 #: raven/raven/doctype/raven_user/raven_user.json
-msgid "<p>To disable the user from accessing Raven, go to \"Users\" and remove the \"Raven User\" role.</p>"
+msgid "<p>To disable the user from accessing thinkNXG Raven, go to \"Users\" and remove the \"Raven User\" role.</p>"
 msgstr ""
 
 #. Header text in the Raven Workspace
 #: raven/raven/workspace/raven/raven.json
-msgid "<span class=\"h4\"><a href=\"/raven\">Raven</a></span>"
+msgid "<span class=\"h4\"><a href=\"/raven\">thinkNXG Raven</a></span>"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentGeneralTab.tsx:35
@@ -199,7 +199,7 @@ msgid "A new version of the app is available. Refresh to load it - some things m
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/About.tsx:38
-msgid "A piece of craft by Frappe."
+msgid "A piece of craft by thinkNXG."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/LinkSettingsAdminSection.tsx:251
@@ -321,7 +321,7 @@ msgstr ""
 
 #. Label of an action in the Onboarding Step 'Add users'
 #: raven/raven/onboarding_step/adding_users_to_raven/adding_users_to_raven.json
-msgid "Add Users to Raven"
+msgid "Add Users to thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Functions/DoctypeVariableBuilder.tsx:155
@@ -331,7 +331,7 @@ msgid "Add Variable"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Webhooks/WebhookForm.tsx:134
-msgid "Add a Webhook Secret so Raven can sign requests. An X-Frappe-Webhook-Signature header (a base64 HMAC-SHA256 of the payload) is added before the request is sent. Do not share the secret publicly."
+msgid "Add a Webhook Secret so thinkNXG Raven can sign requests. An X-Frappe-Webhook-Signature header (a base64 HMAC-SHA256 of the payload) is added before the request is sent. Do not share the secret publicly."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Emojis/AddEmojiDialog.tsx:47
@@ -732,7 +732,7 @@ msgstr ""
 
 #. Label of the auto_add_system_users (Check) field in DocType 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "Automatically add system users to Raven"
+msgid "Automatically add system users to thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/features/profile/EditProfileDrawer.tsx:100
@@ -1086,7 +1086,7 @@ msgid "Channel {0} deleted"
 msgstr ""
 
 #: raven/raven_integrations/doctype/raven_document_notification/raven_document_notification.py:97
-msgid "Channel {0} does not exist in Raven."
+msgid "Channel {0} does not exist in thinkNXG Raven."
 msgstr ""
 
 #. Label of the channels_section (Section Break) field in DocType 'Raven User'
@@ -1197,7 +1197,7 @@ msgid "Choose how you appear to others"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Preferences.tsx:187
-msgid "Choose what Raven should do when you message someone outside working hours ({0}). Silent messages don't ping anyone - they'll see it when they're back."
+msgid "Choose what thinkNXG Raven should do when you message someone outside working hours ({0}). Silent messages don't ping anyone - they'll see it when they're back."
 msgstr ""
 
 #: apps/web/src/components/features/message/actions/dialogs/ForwardMessageDialog.tsx:421
@@ -1340,7 +1340,7 @@ msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:240
 #: apps/web/src/components/features/settings/panels/AISettings.tsx:178
-msgid "Configure AI providers to use AI features in Raven."
+msgid "Configure AI providers to use AI features in thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:160
@@ -1355,7 +1355,7 @@ msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:92
 #: apps/web/src/components/features/settings/panels/Appearance.tsx:20
-msgid "Configure how you want Raven to look."
+msgid "Configure how you want thinkNXG Raven to look."
 msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:248
@@ -1369,7 +1369,7 @@ msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:152
 #: apps/web/src/components/features/settings/panels/FrappeHR.tsx:162
-msgid "Connect your HR system to Raven to sync employee data and send notifications."
+msgid "Connect your HR system to thinkNXG Raven to sync employee data and send notifications."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/AISettings.tsx:50
@@ -1651,7 +1651,7 @@ msgid "Could not update time format"
 msgstr ""
 
 #: apps/web/src/components/layout/AppShell.tsx:137
-msgid "Couldn't load Raven"
+msgid "Couldn't load thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/pages/notifications/Notifications.tsx:224
@@ -1759,7 +1759,7 @@ msgid "Create a thread by right-clicking a message and selecting 'Create Thread'
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentListView.tsx:94
-msgid "Create agents to run automations on Raven."
+msgid "Create agents to run automations on thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentEditorView.tsx:24
@@ -2230,7 +2230,7 @@ msgid "Document Processors"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentDocumentProcessorsTab.tsx:66
-msgid "Document Processors require Google Cloud APIs to be enabled in your Raven settings."
+msgid "Document Processors require Google Cloud APIs to be enabled in your thinkNXG Raven settings."
 msgstr ""
 
 #: raven/raven_integrations/doctype/raven_message_action/raven_message_action.py:44
@@ -2445,7 +2445,7 @@ msgid "Enable quiet hours"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentAITab.tsx:82
-msgid "Enable this if you want the bot to be able to process files like Excel sheets or data from Insights.\\n\\nOpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this."
+msgid "Enable this if you want the bot to be able to process files like Excel sheets or data from thinkNXG Insights.\\n\\nOpenAI Assistants run code in a sandboxed environment (on OpenAI servers) to do this."
 msgstr ""
 
 #. Description of the 'Enable File Search' (Check) field in DocType 'Raven Bot'
@@ -2851,11 +2851,11 @@ msgstr ""
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:151
 #: apps/web/src/components/features/settings/panels/FrappeHR.tsx:161
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "Frappe HR"
+msgid "thinkNXG HR"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/FrappeHR.tsx:38
-msgid "Frappe HR isn't installed"
+msgid "thinkNXG HR isn't installed"
 msgstr ""
 
 #. Label of the frappe_integrations_tab (Tab Break) field in DocType 'Raven
@@ -2869,7 +2869,7 @@ msgstr ""
 #: apps/web/src/components/features/message/renderers/LinkPreview.tsx:709
 #: raven/raven_messaging/doctype/raven_link_preview/raven_link_preview.json
 #: raven/raven_messaging/doctype/raven_message_links/raven_message_links.json
-msgid "Frappe Meet"
+msgid "thinkNXG Meet"
 msgstr ""
 
 #. Label of the frappe_meet_hosted_urls (Small Text) field in DocType 'Raven
@@ -2880,7 +2880,7 @@ msgstr ""
 
 #: apps/web/src/components/features/settings/panels/LinkSettingsAdminSection.tsx:60
 #: apps/web/src/components/features/settings/panels/LinkSettingsAdminSection.tsx:172
-msgid "Frappe Meet sites"
+msgid "thinkNXG Meet sites"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/ScheduledMessages/ScheduledMessageForm.tsx:78
@@ -2973,7 +2973,7 @@ msgid "Get Value"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/KeyboardShortcuts.tsx:197
-msgid "Get around Raven quickly with keyboard shortcuts."
+msgid "Get around thinkNXG Raven quickly with keyboard shortcuts."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentListView.tsx:92
@@ -3000,7 +3000,7 @@ msgstr ""
 #. Label of an action in the Onboarding Step 'Understanding Channels'
 #: raven/raven/onboarding_step/access_the_web_app/access_the_web_app.json
 #: raven/raven/onboarding_step/introduction_to_raven/introduction_to_raven.json
-msgid "Go to Raven"
+msgid "Go to thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/features/message/ThreadHeader.tsx:101
@@ -3171,7 +3171,7 @@ msgstr ""
 #. Description of the 'Automatically Create a Channel for each Department'
 #. (Check) field in DocType 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "If checked, a channel will be created in Raven for each department and employees will be synced with Raven Users."
+msgid "If checked, a channel will be created in thinkNXG Raven for each department and employees will be synced with thinkNXG Raven Users."
 msgstr ""
 
 #. Description of the 'Muted' (Check) field in DocType 'Raven Channel Member'
@@ -3193,7 +3193,7 @@ msgstr ""
 #. Description of the 'Is Global' (Check) field in DocType 'Raven Bot AI
 #. Prompt'
 #: raven/raven_ai/doctype/raven_bot_ai_prompt/raven_bot_ai_prompt.json
-msgid "If checked, this prompt will be available to all users on Raven"
+msgid "If checked, this prompt will be available to all users on thinkNXG Raven"
 msgstr ""
 
 #. Description of the 'Debug Mode' (Check) field in DocType 'Raven Bot'
@@ -3296,7 +3296,7 @@ msgid "In-app notifications"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/FrappeHR.tsx:40
-msgid "Install Frappe HR on this site to sync employees, departments and leaves with Raven."
+msgid "Install thinkNXG HR on this site to sync employees, departments and leaves with thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/About.tsx:71
@@ -3355,7 +3355,7 @@ msgid "Invisible"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/AddUserDialog.tsx:65
-msgid "Invite a new user to Raven."
+msgid "Invite a new user to thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/AddUserDialog.tsx:132
@@ -3632,7 +3632,7 @@ msgstr ""
 
 #. Title of the Module Onboarding 'Raven'
 #: raven/raven/module_onboarding/raven/raven.json
-msgid "Let's setup Raven"
+msgid "Let's setup thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/features/message/renderers/DocumentPrintDialog.tsx:113
@@ -3819,12 +3819,12 @@ msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:118
 #: apps/web/src/components/features/settings/panels/Users/Users.tsx:65
-msgid "Manage users added to Raven."
+msgid "Manage users added to thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:84
 #: apps/web/src/components/features/settings/panels/Profile.tsx:115
-msgid "Manage your Raven profile"
+msgid "Manage your thinkNXG Raven profile"
 msgstr ""
 
 #. Label of the match_exact (Check) field in DocType 'Raven Blocked Links'
@@ -5196,7 +5196,7 @@ msgstr ""
 #. Name of a Workspace
 #: raven/raven/doctype/raven_settings/raven_settings.json
 #: raven/raven/workspace/raven/raven.json
-msgid "Raven"
+msgid "thinkNXG Raven"
 msgstr ""
 
 #. Name of a DocType
@@ -5241,7 +5241,7 @@ msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_blocked_links/raven_blocked_links.json
-msgid "Raven Blocked Links"
+msgid "thinkNXG Raven Blocked Links"
 msgstr ""
 
 #. Label of the raven_bot (Link) field in DocType 'Raven Bot AI Prompt'
@@ -5283,49 +5283,49 @@ msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_custom_emoji/raven_custom_emoji.json
-msgid "Raven Custom Emoji"
+msgid "thinkNXG Raven Custom Emoji"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_document_notification/raven_document_notification.json
-msgid "Raven Document Notification"
+msgid "thinkNXG Raven Document Notification"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_document_notification_recipients/raven_document_notification_recipients.json
-msgid "Raven Document Notification Recipients"
+msgid "thinkNXG Raven Document Notification Recipients"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_grouped_channels/raven_grouped_channels.json
-msgid "Raven Grouped Channels"
+msgid "thinkNXG Raven Grouped Channels"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_hr_company_workspace/raven_hr_company_workspace.json
-msgid "Raven HR Company Workspace"
+msgid "thinkNXG Raven HR Company Workspace"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_incoming_webhook/raven_incoming_webhook.json
-msgid "Raven Incoming Webhook"
+msgid "thinkNXG Raven Incoming Webhook"
 msgstr ""
 
 #. Option for the 'Provider' (Select) field in DocType 'Raven Link Preview'
 #. Option for the 'Provider' (Select) field in DocType 'Raven Message Links'
 #: raven/raven_messaging/doctype/raven_link_preview/raven_link_preview.json
 #: raven/raven_messaging/doctype/raven_message_links/raven_message_links.json
-msgid "Raven Link"
+msgid "thinkNXG Raven Link"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_link_preview/raven_link_preview.json
-msgid "Raven Link Preview"
+msgid "thinkNXG Raven Link Preview"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_mention/raven_mention.json
-msgid "Raven Mention"
+msgid "thinkNXG Raven Mention"
 msgstr ""
 
 #. Name of a DocType
@@ -5355,57 +5355,57 @@ msgstr ""
 
 #. Label of the raven_mobile_tab (Tab Break) field in DocType 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "Raven Mobile"
+msgid "thinkNXG Raven Mobile"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_pinned_channels/raven_pinned_channels.json
-msgid "Raven Pinned Channels"
+msgid "thinkNXG Raven Pinned Channels"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_pinned_messages/raven_pinned_messages.json
-msgid "Raven Pinned Messages"
+msgid "thinkNXG Raven Pinned Messages"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_poll/raven_poll.json
-msgid "Raven Poll"
+msgid "thinkNXG Raven Poll"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_poll_option/raven_poll_option.json
-msgid "Raven Poll Option"
+msgid "thinkNXG Raven Poll Option"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_poll_vote/raven_poll_vote.json
-msgid "Raven Poll Vote"
+msgid "thinkNXG Raven Poll Vote"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_poll_vote_selection/raven_poll_vote_selection.json
-msgid "Raven Poll Vote Selection"
+msgid "thinkNXG Raven Poll Vote Selection"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_push_token/raven_push_token.json
-msgid "Raven Push Token"
+msgid "thinkNXG Raven Push Token"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven/doctype/raven_reminder/raven_reminder.json
-msgid "Raven Reminder"
+msgid "thinkNXG Raven Reminder"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_messaging/doctype/raven_scheduled_message/raven_scheduled_message.json
-msgid "Raven Scheduled Message"
+msgid "thinkNXG Raven Scheduled Message"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_scheduler_event/raven_scheduler_event.json
-msgid "Raven Scheduler Event"
+msgid "thinkNXG Raven Scheduler Event"
 msgstr ""
 
 #. Name of a DocType
@@ -5448,12 +5448,12 @@ msgstr ""
 
 #. Label of a Link in the Raven Workspace
 #: raven/raven/workspace/raven/raven.json
-msgid "Raven Users"
+msgid "thinkNXG Raven Users"
 msgstr ""
 
 #. Name of a DocType
 #: raven/raven_integrations/doctype/raven_webhook/raven_webhook.json
-msgid "Raven Webhook"
+msgid "thinkNXG Raven Webhook"
 msgstr ""
 
 #. Name of a DocType
@@ -5470,20 +5470,20 @@ msgid "Raven Workspace Member"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/QuietHoursAdminSection.tsx:198
-msgid "Raven can nudge users to send messages silently outside work hours."
+msgid "thinkNXG Raven can nudge users to send messages silently outside work hours."
 msgstr ""
 
 #. Success message of the Module Onboarding 'Raven'
 #: raven/raven/module_onboarding/raven/raven.json
-msgid "Raven is setup!"
+msgid "thinkNXG Raven is setup!"
 msgstr ""
 
 #: apps/web/src/components/features/settings/SettingsDialog.tsx:264
-msgid "Raven version, installed apps, and resource links."
+msgid "thinkNXG Raven version, installed apps, and resource links."
 msgstr ""
 
 #: apps/web/src/components/layout/AppUpdateAlert.tsx:80
-msgid "Raven was updated"
+msgid "thinkNXG Raven was updated"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/PushNotifications.tsx:156
@@ -5887,7 +5887,7 @@ msgid "Scheduler Event ID"
 msgstr ""
 
 #: apps/web/src/pages/search/Search.tsx:320
-msgid "Search Raven"
+msgid "Search thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/common/LinkFieldComboBox/LinkFieldCombobox.tsx:428
@@ -6363,7 +6363,7 @@ msgid "Set status to {0}"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/QuietHoursAdminSection.tsx:92
-msgid "Set working hours for your organization, so Raven can nudge users to send messages silently during off-work hours."
+msgid "Set working hours for your organization, so thinkNXG Raven can nudge users to send messages silently during off-work hours."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Preferences.tsx:278
@@ -6393,7 +6393,7 @@ msgstr ""
 
 #. Label of the show_raven_on_desk (Check) field in DocType 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "Show Raven on Desk"
+msgid "Show thinkNXG Raven on Desk"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Appearance.tsx:367
@@ -6470,7 +6470,7 @@ msgstr ""
 #. Description of the 'Frappe Meet Hosted URLs' (Small Text) field in DocType
 #. 'Raven Settings'
 #: raven/raven/doctype/raven_settings/raven_settings.json
-msgid "Site URLs of where Frappe Meet is hosted to show previews of meeting links. Separated by newline characters."
+msgid "Site URLs of where thinkNXG Meet is hosted to show previews of meeting links. Separated by newline characters."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/PushNotifications.tsx:148
@@ -6789,7 +6789,7 @@ msgid "The following code sample shows how to use the message action values in a
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentApiDocsTab.tsx:52
-msgid "The following code samples show how to use the bot/agent in a Frappe app or Server Script."
+msgid "The following code samples show how to use the bot/agent in a thinkNXG app or Server Script."
 msgstr ""
 
 #: apps/web/src/components/features/ChatInput/MentionWarningBanner.tsx:66
@@ -6821,7 +6821,7 @@ msgid "The model should be compatible with the OpenAI Assistants API. We recomme
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/PushNotifications.tsx:53
-msgid "The new Raven web app only supports Raven Cloud. Switch to Raven Cloud and add your credentials to keep push notifications working."
+msgid "The new thinkNXG Raven web app only supports Raven Cloud. Switch to Raven Cloud and add your credentials to keep push notifications working."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Webhooks/WebhookForm.tsx:77
@@ -6978,7 +6978,7 @@ msgid "This needs to be unique and cannot contain spaces."
 msgstr ""
 
 #: apps/web/src/pages/ErrorPage.tsx:40
-msgid "This one leads to a better Raven - help us climb by reporting the error on"
+msgid "This one leads to a better thinkNXG Raven - help us climb by reporting the error on"
 msgstr ""
 
 #: raven/api/raven_poll.py:264
@@ -7031,7 +7031,7 @@ msgid "This scheduled message will be permanently deleted."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/PushNotifications.tsx:50
-msgid "This site sends push notifications through Frappe Cloud."
+msgid "This site sends push notifications through thinkNXG Cloud."
 msgstr ""
 
 #: apps/web/src/components/features/ChatInput/composerGate.tsx:105
@@ -7039,11 +7039,11 @@ msgid "This thread is archived. You can't send new messages."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/AddUserDialog.tsx:221
-msgid "This user already exists in Frappe. Add them to Raven?"
+msgid "This user already exists in thinkNXG. Add them to thinkNXG Raven?"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/AddUserDialog.tsx:167
-msgid "This user is already on Raven."
+msgid "This user is already on thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/message/actions/dialogs/DeleteMessageDialog.tsx:96
@@ -7236,7 +7236,7 @@ msgid "Tue"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/AISettings.tsx:65
-msgid "Turn on AI features across Raven."
+msgid "Turn on AI features across thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/KeyboardShortcuts.tsx:143
@@ -7469,7 +7469,7 @@ msgid "User actions"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/AddUserDialog.tsx:132
-msgid "User added to Raven"
+msgid "User added to thinkNXG Raven"
 msgstr ""
 
 #: apps/web/src/components/layout/SessionBroadcast.tsx:88
@@ -7493,11 +7493,11 @@ msgid "User is not a member of this channel"
 msgstr ""
 
 #: raven/raven_integrations/doctype/raven_document_notification/raven_document_notification.py:91
-msgid "User {0} does not exist in Raven."
+msgid "User {0} does not exist in thinkNXG Raven."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Users/Users.tsx:98
-msgid "Users added to Raven will show up here."
+msgid "Users added to thinkNXG Raven will show up here."
 msgstr ""
 
 #. Label of the vapid_public_key (Data) field in DocType 'Raven Settings'
@@ -7718,11 +7718,11 @@ msgstr ""
 #. Description of the 'Use Google Document/Vision AI to parse documents'
 #. (Check) field in DocType 'Raven Bot'
 #: raven/raven_bot/doctype/raven_bot/raven_bot.json
-msgid "When images or PDFs are uploaded to the agent, Raven will automatically call Google Cloud APIs to parse the document and send it's results to the agent."
+msgid "When images or PDFs are uploaded to the agent, thinkNXG Raven will automatically call Google Cloud APIs to parse the document and send it's results to the agent."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Agents/AgentDocumentProcessorsTab.tsx:79
-msgid "When images or PDFs are uploaded to the agent, Raven will automatically call Google Cloud APIs to process the document and send its results to the agent for better context."
+msgid "When images or PDFs are uploaded to the agent, thinkNXG Raven will automatically call Google Cloud APIs to process the document and send its results to the agent for better context."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/Preferences.tsx:88
@@ -7882,7 +7882,7 @@ msgid "You"
 msgstr ""
 
 #: apps/web/src/components/layout/AppShell.tsx:141
-msgid "You appear to be offline. Raven will load as soon as you're back online."
+msgid "You appear to be offline. thinkNXG Raven will load as soon as you're back online."
 msgstr ""
 
 #: raven/raven_channel_management/doctype/raven_channel_member/raven_channel_member.py:68
@@ -7995,7 +7995,7 @@ msgid "You can use Jinja variables here to customize the instruction to the bot 
 msgstr ""
 
 #: apps/web/src/components/layout/AppShell.tsx:108
-msgid "You cannot access Raven."
+msgid "You cannot access thinkNXG Raven."
 msgstr ""
 
 #: raven/raven_channel_management/doctype/raven_channel/raven_channel.py:202
@@ -8021,7 +8021,7 @@ msgid "You do not have a <b>Raven User</b> role. Please contact your administrat
 msgstr ""
 
 #: raven/api/workspaces.py:20
-msgid "You do not have access to Raven."
+msgid "You do not have access to thinkNXG Raven."
 msgstr ""
 
 #: raven/api/reminders.py:35
@@ -8224,7 +8224,7 @@ msgid "Your account details couldn't be loaded. Please try again in a moment."
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/KeyboardShortcuts.tsx:173
-msgid "Your browser provides these. Raven keeps every channel and page in the history, so they work as you would expect."
+msgid "Your browser provides these. thinkNXG Raven keeps every channel and page in the history, so they work as you would expect."
 msgstr ""
 
 #: apps/web/src/components/features/message/renderers/LinkPreview.tsx:701
@@ -8370,7 +8370,7 @@ msgid "points"
 msgstr ""
 
 #: apps/web/src/components/features/settings/panels/DocumentNotifications/DocumentNotificationDetailsTab.tsx:84
-msgid "see Frappe's Jinja documentation"
+msgid "see thinkNXG Framework's Jinja documentation"
 msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'Raven AI Function Params'

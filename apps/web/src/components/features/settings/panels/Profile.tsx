@@ -112,7 +112,7 @@ const ProfileForm = ({ myProfile }: { myProfile: RavenUser }) => {
                 }
             >
                 <SettingsPanelTitle>{_("Profile")}</SettingsPanelTitle>
-                <SettingsPanelDescription>{_("Manage your Raven profile")}</SettingsPanelDescription>
+                <SettingsPanelDescription>{_("Manage your thinkNXG Raven profile")}</SettingsPanelDescription>
             </SettingsPanelHeader>
 
             <SettingsPanelContent>

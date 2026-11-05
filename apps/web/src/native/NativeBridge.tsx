@@ -33,8 +33,8 @@ export default function NativeBridge() {
         pendingNotice.take().then((stored) => {
             if (!stored || disposed) return
             const notice = JSON.parse(stored) as VersionNotice
-            if (notice.kind === "mismatch") toast.warning(_("This site runs Raven {0}; the app is built for {1}. Some features may not work.", [notice.site, notice.app]), { duration: 8000 })
-            else toast.warning(_("A newer Raven app is available for this site."), { duration: 8000 })
+            if (notice.kind === "mismatch") toast.warning(_("This site runs thinkNXG Raven {0}; the app is built for {1}. Some features may not work.", [notice.site, notice.app]), { duration: 8000 })
+            else toast.warning(_("A newer thinkNXG Raven app is available for this site."), { duration: 8000 })
         }).catch(() => { })
         return () => {
             disposed = true

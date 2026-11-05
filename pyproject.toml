@@ -42,6 +42,6 @@ out_dir = "../../raven/public/raven"
 index_html_path = "../../raven/www/raven.html"
 
 [project.urls]
-Homepage = "https://frappe.io/products/raven"
-Repository = "https://github.com/frappe/raven.git"
-"Bug Reports" = "https://github.com/frappe/raven/issues"
+Homepage = "https://docs.thinknxg.com/thinknxgraven"
+Repository = "https://github.com/thinknxg/thinkNXG-Raven.git"
+"Bug Reports" = "https://github.com/thinknxg/thinkNXG-Raven/issues"

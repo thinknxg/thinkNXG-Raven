@@ -185,7 +185,7 @@ const Profile = () => {
 
                 <div className="px-4 pt-10 pb-16 text-center w-full flex items-center justify-center flex-col gap-2">
                     <span className="text-base text-ink-gray-4">Raven <span className="font-numeric">v{window?.frappe?.boot.versions.raven}</span></span>
-                    <img src={siteUrl("/assets/frappe/images/frappe-comp-logo.svg")} alt="Frappe" className="h-5 w-auto dark:invert" />
+                    <img src={siteUrl("/assets/frappe/images/frappe-comp-logo.svg")} alt="thinkNXG" className="h-5 w-auto dark:invert" />
                 </div>
             </div>
 

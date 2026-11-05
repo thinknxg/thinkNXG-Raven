@@ -33,9 +33,9 @@ export const FrappeHRFields = () => {
             {hrMissing && (
                 <Alert theme="amber">
                     <AlertTriangleIcon />
-                    <AlertTitle>{_("Frappe HR isn't installed")}</AlertTitle>
+                    <AlertTitle>{_("thinkNXG HR isn't installed")}</AlertTitle>
                     <AlertDescription>
-                        {_("Install Frappe HR on this site to sync employees, departments and leaves with Raven.")}
+                        {_("Install thinkNXG HR on this site to sync employees, departments and leaves with thinkNXG Raven.")}
                     </AlertDescription>
                 </Alert>
             )}
@@ -156,8 +156,8 @@ const CompanyWorkspaceMapping = ({ disabled }: { disabled: boolean }) => {
  */
 export const FrappeHR = () => (
     <AdminSettingsForm
-        title={_("Frappe HR")}
-        description={_("Connect your HR system to Raven to sync employee data and send notifications.")}
+        title={_("thinkNXG HR")}
+        description={_("Connect your HR system to thinkNXG Raven to sync employee data and send notifications.")}
         formId={FORM_ID}
     >
         <FrappeHRFields />

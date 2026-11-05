@@ -25,7 +25,7 @@ import _ from '@lib/translate'
 
 /**
  * Admin-only tail of the Preferences panel: the two link-related Raven
- * Settings (Frappe Meet sites, blocked link previews). These apply to
+ * Settings (thinkNXG Meet sites, blocked link previews). These apply to
  * EVERYONE on the site — they only sit in Preferences for reachability.
  * Each row shows a summary ("4 links blocked"); the editing happens in a
  * dialog. Renders nothing without the Raven Admin role.
@@ -57,7 +57,7 @@ const AdminLinkSettingsRows = ({ withLeadingSeparator }: { withLeadingSeparator:
                     <SettingsFormLabel>
                         <span className="flex items-center gap-1.5">
                             <BrandIcon brand={BRAND.frappeMeet} className="size-4 shrink-0" />
-                            {_('Frappe Meet sites')}
+                            {_('thinkNXG Meet sites')}
                         </span>
                     </SettingsFormLabel>
                     <SettingsFormDescription>
@@ -169,7 +169,7 @@ const MeetSitesDialog = ({ trigger }: { trigger: React.ReactNode }) => {
                 <DialogHeader>
                     <DialogTitle className="flex items-center gap-2">
                         <BrandIcon brand={BRAND.frappeMeet} className="size-5 shrink-0" />
-                        {_('Frappe Meet sites')}
+                        {_('thinkNXG Meet sites')}
                     </DialogTitle>
                     <DialogDescription>
                         {_('Meeting links from these sites show a join card in chat.')}
@@ -178,7 +178,7 @@ const MeetSitesDialog = ({ trigger }: { trigger: React.ReactNode }) => {
                 <form onSubmit={form.handleSubmit(onSubmit)} noValidate className="flex flex-col gap-2">
                     {hosts.fields.map((field, index) => (
                         <div key={field.id} className="flex items-center gap-2">
-                            <Input placeholder="meet.frappe.io" {...form.register(`hosts.${index}.host`)} />
+                            <Input placeholder="meet.thinknxg.com" {...form.register(`hosts.${index}.host`)} />
                             <Button
                                 type="button"
                                 variant="ghost"
@@ -248,13 +248,13 @@ const BlockedLinksDialog = ({ trigger }: { trigger: React.ReactNode }) => {
                 <DialogHeader>
                     <DialogTitle>{_('Blocked link previews')}</DialogTitle>
                     <DialogDescription>
-                        {_('A row blocks its whole domain. Tick Exact to block just that one URL - like "frappe.io" can be blocked without losing previews on "frappe.io/blog".')}
+                        {_('A row blocks its whole domain. Tick Exact to block just that one URL - like "thinknxg.com" can be blocked without losing previews on "thinknxg.com/insights".')}
                     </DialogDescription>
                 </DialogHeader>
                 <form onSubmit={form.handleSubmit(onSubmit)} noValidate className="flex flex-col gap-2">
                     {links.fields.map((field, index) => (
                         <div key={field.id} className="flex items-center gap-2">
-                            <Input placeholder="frappe.io" {...form.register(`links.${index}.link`)} />
+                            <Input placeholder="thinknxg.com" {...form.register(`links.${index}.link`)} />
                             <Controller
                                 control={form.control}
                                 name={`links.${index}.matchExact`}

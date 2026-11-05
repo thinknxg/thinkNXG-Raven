@@ -3,12 +3,12 @@ import frappe
 from . import __version__ as app_version
 
 app_name = "raven"
-app_title = "Raven"
-app_publisher = "Frappe"
+app_title = "thinkNXG Raven"
+app_publisher = "thinkNXG"
 app_description = "Messaging Application"
 app_email = "support@frappe.io"
 app_license = "AGPLv3"
-source_link = "https://github.com/frappe/Raven"
+source_link = "https://github.com/thinknxg/thinkNXG-Raven"
 app_logo = "/assets/raven/raven_logo.svg"
 app_logo_url = "/assets/raven/raven_logo.svg"
 
@@ -29,8 +29,8 @@ add_to_apps_screen = [
 	{
 		"name": "raven",
 		"logo": "/assets/raven/raven_logo.svg",
-		"title": "Raven",
-		"setup_wizard_text": "Welcome to Raven. Let's set up your team's space.",
+		"title": "thinkNXG Raven",
+		"setup_wizard_text": "Welcome to thinkNXG Raven. Let's set up your team's space.",
 		"route": "/raven",
 		"has_permission": "raven.permissions.check_app_permission",
 	}

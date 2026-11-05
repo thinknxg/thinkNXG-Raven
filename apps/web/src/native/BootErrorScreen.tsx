@@ -27,11 +27,11 @@ export const BootErrorScreen = ({ status, host }: { status: Shown; host: string 
                         {status === "offline" && _("You're offline")}
                         {status === "unreachable" && _("{0} isn't responding", [host])}
                         {status === "maintenance" && _("{0} is under maintenance", [host])}
-                        {status === "unavailable" && _("Couldn't load Raven")}
+                        {status === "unavailable" && _("Couldn't load thinkNXG Raven")}
                     </AlertTitle>
                     <AlertDescription>
                         {status === "connecting" && _("This is taking longer than usual.")}
-                        {status === "offline" && _("Check your connection. Raven will retry when the network is back.")}
+                        {status === "offline" && _("Check your connection. thinkNXG Raven will retry when the network is back.")}
                         {status === "unreachable" && _("The site may be down or its address may have changed.")}
                         {status === "maintenance" && _("The site is in maintenance mode. Try again in a few minutes.")}
                         {status === "unavailable" && _("The site answered with an error. Try again in a moment.")}

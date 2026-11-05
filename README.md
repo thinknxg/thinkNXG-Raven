@@ -1,31 +1,31 @@
 <div align="center" markdown="1">
 
-<a href="https://frappe.io/product/raven">
-    <img src="raven/public/raven_logo.svg" height="80" alt="Raven logo">
+<a href="https://docs.thinknxg.com/thinknxgraven">
+    <img src="raven/public/raven_logo.svg" height="80" alt="thinkNXG Raven logo">
 </a>
 
-<h1>Raven</h1>
+<h1>thinkNXG Raven</h1>
 
 **A simple chat app for teams**
 
-[![GitHub release](https://img.shields.io/github/v/release/frappe/raven)](https://github.com/frappe/raven/releases)
-[![CI](https://github.com/frappe/raven/actions/workflows/ci.yml/badge.svg)](https://github.com/frappe/raven/actions/workflows/ci.yml)
+[![GitHub release](https://img.shields.io/github/v/release/thinknxg/thinkNXG-Raven)](https://github.com/thinknxg/thinkNXG-Raven/releases)
+[![CI](https://github.com/thinknxg/thinkNXG-Raven/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknxg/thinkNXG-Raven/actions/workflows/ci.yml)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPLv3-blue)](LICENSE)
 
-[Website](https://frappe.io/product/raven) - [Issues](https://github.com/frappe/raven/issues)
+[Website](https://thinknxg.com) - [Documentation](https://docs.thinknxg.com/thinknxgraven) - [Issues](https://github.com/thinknxg/thinkNXG-Raven/issues) - [Support](https://thinknxg.com/thinkdesk)
 
 </div>
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset=".github/readme/raven-dark.png">
-	<img src=".github/readme/raven-light.png" alt="Raven in the browser, showing a channel with shared photos" width="100%">
+	<img src=".github/readme/raven-light.png" alt="thinkNXG Raven in the browser, showing a channel with shared photos" width="100%">
 </picture>
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset=".github/readme/threads-documents-dark.png">
-	<img src=".github/readme/threads-documents-light.png" alt="A thread beside the channel, and a document from a Frappe app shown as a card in the chat" width="100%">
+	<img src=".github/readme/threads-documents-light.png" alt="A thread beside the channel, and a document from a thinkNXG app shown as a card in the chat" width="100%">
 </picture>
-<p align="center"><sub>Threads for side discussions &nbsp;&middot;&nbsp; Documents from any Frappe app, in the chat</sub></p>
+<p align="center"><sub>Threads for side discussions &nbsp;&middot;&nbsp; Documents from any thinkNXG app, in the chat</sub></p>
 
 <picture>
 	<source media="(prefers-color-scheme: dark)" srcset=".github/readme/files-search-dark.png">
@@ -33,11 +33,11 @@
 </picture>
 <p align="center"><sub>Every file shared in a channel &nbsp;&middot;&nbsp; Search across channels</sub></p>
 
-## Raven
+## thinkNXG Raven
 
-Raven is an open-source chat app for teams, built on the [Frappe Framework](https://frappe.io/framework). It runs on your own Frappe site, so your messages stay in your database and nobody charges you per user.
+thinkNXG Raven is an open-source chat app for teams, built on the [thinkNXG Framework](https://docs.thinknxg.com/thinknxgframework). It runs on your own thinkNXG site, so your messages stay in your database and nobody charges you per user.
 
-It lives alongside ERPNext, HR, CRM and Helpdesk, and any document from any Frappe app can be part of the conversation.
+It lives alongside [thinkNXG ERP](https://docs.thinknxg.com/thinknxgerp), [thinkNXG HR](https://docs.thinknxg.com/thinknxghr), [thinkNXG CRM](https://docs.thinknxg.com/thinknxgcrm) and [thinkDesk](https://docs.thinknxg.com/thinkdesk), and any document from any thinkNXG app can be part of the conversation.
 
 ### Key features
 
@@ -49,44 +49,41 @@ It lives alongside ERPNext, HR, CRM and Helpdesk, and any document from any Frap
 - **Notifications:** Push notifications on the web and on your phone, with quiet hours and per-channel settings. Reminders bring a message back later, and scheduled messages go out at a set time.
 - **Mobile:** iOS and Android apps, plus an installable web app, all on the same site.
 
-### Works with your Frappe apps
+### Works with your thinkNXG apps
 
-- **Share a document:** Paste a link to any document on the site and Raven shows a card with its status and key fields.
+- **Share a document:** Paste a link to any document on the site and thinkNXG Raven shows a card with its status and key fields.
 - **Document notifications:** Post to a channel when a document is created, changed or submitted. Set the conditions and the message template without writing code.
 - **Approve from the chat:** Approve, reject or send back a document without leaving the conversation.
-- **Who is on leave:** Leave from Frappe HR shows next to a person's name.
+- **Who is on leave:** Leave from thinkNXG HR shows next to a person's name.
 - **Bots, webhooks and AI agents:** Bots that post and reply, incoming webhooks that post into channels, and agents backed by your own OpenAI or compatible provider.
 
 ### Under the hood
 
-- [Frappe Framework](https://github.com/frappe/frappe): A full-stack web application framework.
-- [Frappe React SDK](https://github.com/frappe/frappe-react-sdk): React hooks for auth, data fetching and realtime with a Frappe backend.
+- [thinkNXG Framework](https://github.com/thinknxg/thinkNXG): A full-stack web application framework.
+- [Frappe React SDK](https://github.com/frappe/frappe-react-sdk): React hooks for auth, data fetching and realtime with a thinkNXG Framework backend.
 
 ### Compatibility
 
-| Raven branch | Frappe branch | Notes |
+| thinkNXG Raven branch | thinkNXG Framework branch | Notes |
 | :----------- | :------------ | :---- |
 | main         | version-15 (15.111 or later), version-16 | Stable |
 | develop      | version-15 (15.111 or later), version-16, develop | Development |
 
 ## Getting started
 
-### Frappe Cloud
+### thinkNXG Cloud
 
-Install Raven on a site from the Frappe Cloud marketplace. Frappe Cloud takes care of hosting, upgrades, backups and support.
+Install thinkNXG Raven on a site from the [thinkNXG Cloud Marketplace](https://thinknxgcloud.com/marketplace/apps/raven). [thinkNXG Cloud](https://thinknxgcloud.com) takes care of hosting, upgrades, backups and support.
 
 <div>
-	<a href="https://cloud.frappe.io/marketplace/apps/raven" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
-			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
-		</picture>
+	<a href="https://thinknxgcloud.com/marketplace/apps/raven" target="_blank">
+		<img src="https://img.shields.io/badge/Try%20on-thinkNXG%20Cloud-0089FF" alt="Try on thinkNXG Cloud" height="28" />
 	</a>
 </div>
 
 ### Self hosting
 
-[Pilot](https://github.com/frappe/pilot) is the recommended way to run Raven on your own server. It installs Frappe, manages sites and backups, and sets up production with nginx and TLS. Pilot needs Frappe v16 or later.
+[Pilot](https://github.com/frappe/pilot) is the recommended way to run thinkNXG Raven on your own server. It installs the thinkNXG Framework, manages sites and backups, and sets up production with nginx and TLS. Pilot needs thinkNXG Framework v16 or later. For managed hosting, see the [thinkNXG Cloud documentation](https://docs.thinknxg.com/thinknxgcloud).
 
 Install Pilot:
 
@@ -101,26 +98,26 @@ pilot new main
 pilot -b main start
 ```
 
-Then add Raven and create a site:
+Then add thinkNXG Raven and create a site:
 
 ```bash
-pilot -b main get-app https://github.com/frappe/raven
+pilot -b main get-app https://github.com/thinknxg/thinkNXG-Raven
 pilot -b main new-site chat.example.com
 pilot -b main install-app chat.example.com raven
 ```
 
-Raven opens at `https://chat.example.com/raven`. See the Pilot [production guide](https://github.com/frappe/pilot/blob/develop/docs/production.md) for nginx, TLS and process managers.
+thinkNXG Raven opens at `https://chat.example.com/raven`. See the Pilot [production guide](https://github.com/frappe/pilot/blob/develop/docs/production.md) for nginx, TLS and process managers.
 
-If you already have a bench, install Raven the usual way:
+If you already have a bench, install thinkNXG Raven the usual way:
 
 ```bash
-bench get-app https://github.com/frappe/raven
+bench get-app https://github.com/thinknxg/thinkNXG-Raven
 bench --site your-site install-app raven
 ```
 
 ### Mobile apps
 
-The iOS and Android apps connect to any site running Raven 3.1 or later. Enter the site address, sign in, and every channel is there, in sync with the web app.
+The iOS and Android apps connect to any site running thinkNXG Raven 3.1 or later. Enter the site address, sign in, and every channel is there, in sync with the web app.
 
 <div>
 	<a href="https://apps.apple.com/app/raven-mobile/id6741682327" target="_blank">
@@ -134,7 +131,7 @@ The iOS and Android apps connect to any site running Raven 3.1 or later. Enter t
 
 ## Development
 
-Set up a bench with Pilot or [bench](https://docs.frappe.io/framework/user/en/installation), get the app and create a site as above, then turn on developer mode and skip CSRF checks for the site. The second setting is for local development only, since the Vite dev server has no CSRF token.
+Set up a bench with Pilot or [bench](https://docs.thinknxg.com/thinknxgframework/user/en/installation), get the app and create a site as above, then turn on developer mode and skip CSRF checks for the site. The second setting is for local development only, since the Vite dev server has no CSRF token.
 
 ```bash
 bench set-config -g developer_mode 1
@@ -162,8 +159,10 @@ The app runs at `http://raven.localhost:8080` and proxies API calls to your site
 
 ## Contributing
 
-- [GitHub Issues](https://github.com/frappe/raven/issues): Bug reports. Include steps to reproduce, screenshots and any console or server errors.
-- [Report security vulnerabilities](https://frappe.io/security)
+- [Documentation](https://docs.thinknxg.com/thinknxgraven): User and admin guides.
+- [thinkNXG Support](https://thinknxg.com/thinkdesk): Help from the thinkNXG team.
+- [GitHub Issues](https://github.com/thinknxg/thinkNXG-Raven/issues): Bug reports. Include steps to reproduce, screenshots and any console or server errors.
+- [Report security vulnerabilities](https://thinknxg.com/thinkdesk)
 - [Translations](https://crowdin.com/project/frappe)
 
 ## License
@@ -173,10 +172,5 @@ The app runs at `http://raven.localhost:8080` and proxies API calls to your site
 <br>
 <br>
 <div align="center" style="padding-top: 1rem; padding-bottom: 1rem; display: flex; justify-content:center;">
-	<a href="https://frappe.io" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
-		</picture>
-	</a>
+	<a href="https://thinknxg.com" target="_blank"><strong>thinkNXG</strong></a>
 </div>

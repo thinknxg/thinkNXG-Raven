@@ -71,7 +71,7 @@ const AISettingsFields = () => {
             <SwitchFormField
                 name="enable_ai_integration"
                 label={_("Enable AI Integration")}
-                formDescription={_("Turn on AI features across Raven.")}
+                formDescription={_("Turn on AI features across thinkNXG Raven.")}
             />
 
             {aiEnabled ? (
@@ -199,7 +199,7 @@ const AISettingsFields = () => {
 export const AISettings = () => (
     <AdminSettingsForm
         title={<>{_("AI Settings")} <DeprecatedBadge /></>}
-        description={_("Configure AI providers to use AI features in Raven.")}
+        description={_("Configure AI providers to use AI features in thinkNXG Raven.")}
         formId={FORM_ID}
     >
         <AISettingsFields />

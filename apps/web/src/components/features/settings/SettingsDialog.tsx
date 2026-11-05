@@ -81,7 +81,7 @@ const settingsTabs = (): {
             label: _("Profile"),
             icon: UserIcon,
             component: Profile,
-            description: _("Manage your Raven profile"),
+            description: _("Manage your thinkNXG Raven profile"),
         },
         {
             id: "appearance",
@@ -89,7 +89,7 @@ const settingsTabs = (): {
             label: _("Appearance"),
             icon: PaletteIcon,
             component: Appearance,
-            description: _("Configure how you want Raven to look."),
+            description: _("Configure how you want thinkNXG Raven to look."),
         },
         {
             id: "preferences",
@@ -115,7 +115,7 @@ const settingsTabs = (): {
             label: _("Users"),
             icon: UsersIcon,
             component: UsersPanel,
-            description: _("Manage users added to Raven."),
+            description: _("Manage users added to thinkNXG Raven."),
         },
         {
             id: "workspaces",
@@ -153,11 +153,11 @@ const settingsTabs = (): {
         {
             id: "hr",
             group: "integrations",
-            label: "Frappe HR",
+            label: "thinkNXG HR",
             icon: () => HR_ICON,
             component: FrappeHRPanel,
-            panelTitle: _("Frappe HR"),
-            description: _("Connect your HR system to Raven to sync employee data and send notifications."),
+            panelTitle: _("thinkNXG HR"),
+            description: _("Connect your HR system to thinkNXG Raven to sync employee data and send notifications."),
         },
         {
             id: "document-notifications",
@@ -237,7 +237,7 @@ const settingsTabs = (): {
             label: _("AI Settings"),
             icon: BrainCogIcon,
             component: AISettingsPanel,
-            description: _("Configure AI providers to use AI features in Raven."),
+            description: _("Configure AI providers to use AI features in thinkNXG Raven."),
         },
         {
             id: "push-notifications",
@@ -261,7 +261,7 @@ const settingsTabs = (): {
             label: _("About"),
             icon: InfoIcon,
             component: About,
-            description: _("Raven version, installed apps, and resource links."),
+            description: _("thinkNXG Raven version, installed apps, and resource links."),
         }
     ]
 

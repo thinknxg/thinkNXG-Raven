@@ -14,7 +14,7 @@ def after_install():
 		click.secho("Thank you for installing Raven!", fg="green")
 
 	except Exception as e:
-		BUG_REPORT_URL = "https://github.com/frappe/raven/issues/new"
+		BUG_REPORT_URL = "https://github.com/thinknxg/thinkNXG-Raven/issues/new"
 		click.secho(
 			"Installation for Raven failed due to an error."
 			" Please try re-installing the app or"

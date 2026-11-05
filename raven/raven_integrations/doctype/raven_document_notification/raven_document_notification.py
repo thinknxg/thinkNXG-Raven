@@ -95,13 +95,13 @@ class RavenDocumentNotification(Document):
 				if recipient.variable_type == "Static":
 					# Check if this user exists in Raven
 					if not frappe.db.exists("Raven User", recipient.value):
-						frappe.throw(_("User {0} does not exist in Raven.").format(recipient.value))
+						frappe.throw(_("User {0} does not exist in thinkNXG Raven.").format(recipient.value))
 
 			elif recipient.channel_type == "Channel":
 				if recipient.variable_type == "Static":
 					# Check if this channel exists in Raven
 					if not frappe.db.exists("Raven Channel", recipient.value):
-						frappe.throw(_("Channel {0} does not exist in Raven.").format(recipient.value))
+						frappe.throw(_("Channel {0} does not exist in thinkNXG Raven.").format(recipient.value))
 
 			if recipient.variable_type == "Jinja":
 				validate_template(recipient.value)

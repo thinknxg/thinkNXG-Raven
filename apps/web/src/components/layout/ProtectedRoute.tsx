@@ -34,7 +34,7 @@ export const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
                     theme="red"
                 >
                     <AlertCircle />
-                    <AlertTitle>{_('You cannot access Raven.')}</AlertTitle>
+                    <AlertTitle>{_('You cannot access thinkNXG Raven.')}</AlertTitle>
                     <AlertDescription>{_('You do not have the "Raven User" role. Please contact your system administrator.')}</AlertDescription>
                 </Alert>
             </div >
@@ -63,11 +63,11 @@ const BootUnavailableScreen = () => {
             <div className="flex max-w-md flex-col gap-3 px-4">
                 <Alert>
                     <WifiOffIcon />
-                    <AlertTitle>{_("Couldn't load Raven")}</AlertTitle>
+                    <AlertTitle>{_("Couldn't load thinkNXG Raven")}</AlertTitle>
                     <AlertDescription>
                         {navigator.onLine
                             ? _("Your account details couldn't be loaded. Please try again in a moment.")
-                            : _("You appear to be offline. Raven will load as soon as you're back online.")}
+                            : _("You appear to be offline. thinkNXG Raven will load as soon as you're back online.")}
                     </AlertDescription>
                 </Alert>
                 <Button variant="outline" onClick={() => window.location.reload()}>

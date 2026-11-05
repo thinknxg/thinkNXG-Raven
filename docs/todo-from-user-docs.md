@@ -1,6 +1,6 @@
 # TODO: product issues found while writing the user docs
 
-Found in October 2026 while checking docs.frappe.io/raven against the code and the demo site. The docs describe only what works today. When an item is fixed, update the docs page named in brackets.
+Found in October 2026 while checking docs.thinknxg.com/thinknxgraven against the code and the demo site. The docs describe only what works today. When an item is fixed, update the docs page named in brackets.
 
 ## Notifications
 

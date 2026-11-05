@@ -63,7 +63,7 @@ const AgentDocumentProcessorsTab = () => {
             <Alert theme="blue">
                 <InfoIcon />
                 <AlertTitle>
-                    {_("Document Processors require Google Cloud APIs to be enabled in your Raven settings.")}
+                    {_("Document Processors require Google Cloud APIs to be enabled in your thinkNXG Raven settings.")}
                 </AlertTitle>
             </Alert>
         )
@@ -77,7 +77,7 @@ const AgentDocumentProcessorsTab = () => {
                 name="use_google_document_parser"
                 label={_("Use Google Document/Vision AI to parse documents")}
                 formDescription={_(
-                    "When images or PDFs are uploaded to the agent, Raven will automatically call Google Cloud APIs to process the document and send its results to the agent for better context."
+                    "When images or PDFs are uploaded to the agent, thinkNXG Raven will automatically call Google Cloud APIs to process the document and send its results to the agent for better context."
                 )}
             />
 

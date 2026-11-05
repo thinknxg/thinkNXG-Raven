@@ -32,6 +32,6 @@ export const getSetupStepTitle = (step: SetupStepName): string => {
         case "team":
             return _("Add your team")
         case "hr":
-            return _("First Frappe HR, now Raven. You're on a roll.")
+            return _("First thinkNXG HR, now thinkNXG Raven. You're on a roll.")
     }
 }

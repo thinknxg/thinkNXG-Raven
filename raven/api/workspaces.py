@@ -18,7 +18,7 @@ def get_list():
 	"""
 	raven_user = frappe.db.get_value("Raven User", {"user": frappe.session.user}, "name")
 	if not raven_user:
-		frappe.throw(_("You do not have access to Raven."), frappe.PermissionError)
+		frappe.throw(_("You do not have access to thinkNXG Raven."), frappe.PermissionError)
 
 	workspace = frappe.qb.DocType("Raven Workspace")
 	workspace_member = frappe.qb.DocType("Raven Workspace Member")

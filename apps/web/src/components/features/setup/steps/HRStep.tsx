@@ -49,11 +49,11 @@ export const HRStep = ({ isLast, finishing, onDone, onSkip, onPreview, onBusyCha
                 {/* Frappe HR × Raven. HR's logo is served by hrms, which this step needs installed. */}
                 {/* About a line height of room either side: the title-to-body gap is sized for a subtitle. */}
                 <div className="mt-3 mb-1 flex items-center gap-3">
-                    <img src="/assets/hrms/images/frappe-hr-logo.svg" alt={_("Frappe HR")} className="size-10 animate-setup-join-left" />
+                    <img src="/assets/hrms/images/frappe-hr-logo.svg" alt={_("thinkNXG HR")} className="size-10 animate-setup-join-left" />
                     <X className="size-4 text-ink-gray-5 animate-setup-join-mark" aria-hidden />
-                    <img src="/assets/raven/raven_logo.svg" alt={_("Raven")} className="size-10 animate-setup-join-right" />
+                    <img src="/assets/raven/raven_logo.svg" alt={_("thinkNXG Raven")} className="size-10 animate-setup-join-right" />
                 </div>
-                <p className="text-p-base text-ink-gray-7">{_("Let the two talk: Raven can show who's on leave, so no one chases a teammate who's away.")}</p>
+                <p className="text-p-base text-ink-gray-7">{_("Let the two talk: thinkNXG Raven can show who's on leave, so no one chases a teammate who's away.")}</p>
                 {error && <ErrorBanner error={error} />}
                 <SwitchFormField
                     name="show_if_a_user_is_on_leave"

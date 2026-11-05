@@ -10,6 +10,6 @@ export const DeprecatedBadge = () => (
                 {_("Deprecated")}
             </Badge>
         </TooltipTrigger>
-        <TooltipContent>{_("Raven will soon support AI integrations via Frappe Flow.")}</TooltipContent>
+        <TooltipContent>{_("thinkNXG Raven will soon support AI integrations via thinkNXG Flow.")}</TooltipContent>
     </Tooltip>
 )

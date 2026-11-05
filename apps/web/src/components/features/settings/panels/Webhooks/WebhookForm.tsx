@@ -131,7 +131,7 @@ const GeneralWebhookForm = ({ isEdit }: { isEdit: boolean }) => {
                     <Badge variant="subtle">{_("Recommended")}</Badge>
                 </div>
                 <FieldHelp>
-                    {_("Add a Webhook Secret so Raven can sign requests. An X-Frappe-Webhook-Signature header (a base64 HMAC-SHA256 of the payload) is added before the request is sent. Do not share the secret publicly.")}
+                    {_("Add a Webhook Secret so thinkNXG Raven can sign requests. An X-Frappe-Webhook-Signature header (a base64 HMAC-SHA256 of the payload) is added before the request is sent. Do not share the secret publicly.")}
                 </FieldHelp>
             </div>
 

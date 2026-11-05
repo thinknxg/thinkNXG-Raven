@@ -317,7 +317,7 @@ export default function Search() {
                             <Empty>
                                 <EmptyMedia><SearchIcon /></EmptyMedia>
                                 <EmptyHeader>
-                                    <EmptyTitle>{_('Search Raven')}</EmptyTitle>
+                                    <EmptyTitle>{_('Search thinkNXG Raven')}</EmptyTitle>
                                     <EmptyDescription>{_('Find messages, files, links and polls. Type a query or pick a filter to start.')}</EmptyDescription>
                                 </EmptyHeader>
                             </Empty>

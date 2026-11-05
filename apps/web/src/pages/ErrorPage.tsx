@@ -37,9 +37,9 @@ const ErrorPage = () => {
                         _("Reload to pick up the latest version - everything will be right where you left it.")
                     ) : (
                         <>
-                            {_("This one leads to a better Raven - help us climb by reporting the error on")}{" "}
+                            {_("This one leads to a better thinkNXG Raven - help us climb by reporting the error on")}{" "}
                             <a
-                                href="https://github.com/frappe/raven/issues"
+                                href="https://github.com/thinknxg/thinkNXG-Raven/issues"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="underline underline-offset-2"

@@ -89,7 +89,7 @@ const QuietHoursAdminRow = ({ withSeparator }: { withSeparator: boolean }) => {
                         </span>
                     </SettingsFormLabel>
                     <SettingsFormDescription>
-                        {_("Set working hours for your organization, so Raven can nudge users to send messages silently during off-work hours.")}
+                        {_("Set working hours for your organization, so thinkNXG Raven can nudge users to send messages silently during off-work hours.")}
                     </SettingsFormDescription>
                 </div>
                 <div className="flex justify-end">
@@ -195,7 +195,7 @@ export const QuietHoursDialog = ({ trigger, open: controlledOpen, onOpenChange }
                         {_('Quiet hours')}
                     </DialogTitle>
                     <DialogDescription>
-                        {_("Raven can nudge users to send messages silently outside work hours.")}
+                        {_("thinkNXG Raven can nudge users to send messages silently outside work hours.")}
                     </DialogDescription>
                 </DialogHeader>
                 <form onSubmit={form.handleSubmit(onSubmit)} noValidate className="flex flex-col gap-4">

@@ -77,7 +77,7 @@ export const AppUpdateAlert = () => {
         <AlertDialog open={open} onOpenChange={setOpen}>
             <AlertDialogContent>
                 <AlertDialogHeader>
-                    <AlertDialogTitle>{_("Raven was updated")}</AlertDialogTitle>
+                    <AlertDialogTitle>{_("thinkNXG Raven was updated")}</AlertDialogTitle>
                     <AlertDialogDescription>
                         {_("A new version of the app is available. Refresh to load it - some things may not work until you do.")}
                     </AlertDialogDescription>

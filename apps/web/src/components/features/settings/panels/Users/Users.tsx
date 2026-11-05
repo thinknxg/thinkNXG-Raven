@@ -93,7 +93,7 @@ export const Users = () => {
         <>
             <SettingsPanelHeader actions={canEditAccounts ? <AddUserDialog /> : null}>
                 <SettingsPanelTitle>{_("Users")}</SettingsPanelTitle>
-                <SettingsPanelDescription>{_("Manage users added to Raven.")}</SettingsPanelDescription>
+                <SettingsPanelDescription>{_("Manage users added to thinkNXG Raven.")}</SettingsPanelDescription>
             </SettingsPanelHeader>
             <SettingsPanelContent className="min-h-0 gap-2">
                 <div className="relative">
@@ -126,7 +126,7 @@ export const Users = () => {
                                 <EmptyDescription>
                                     {query
                                         ? _("No users match your search.")
-                                        : _("Users added to Raven will show up here.")}
+                                        : _("Users added to thinkNXG Raven will show up here.")}
                                 </EmptyDescription>
                             </EmptyHeader>
                         </Empty>

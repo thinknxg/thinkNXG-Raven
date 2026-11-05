@@ -49,10 +49,10 @@ const PushNotificationFields = () => {
         return (
             <Alert theme="amber">
                 <TriangleAlertIcon />
-                <AlertTitle className="text-start">{_("This site sends push notifications through Frappe Cloud.")}</AlertTitle>
+                <AlertTitle className="text-start">{_("This site sends push notifications through thinkNXG Cloud.")}</AlertTitle>
                 <AlertDescription>
                     <span>
-                        {_("The new Raven web app only supports Raven Cloud. Switch to Raven Cloud and add your credentials to keep push notifications working.")}
+                        {_("The new thinkNXG Raven web app only supports Raven Cloud. Switch to Raven Cloud and add your credentials to keep push notifications working.")}
                     </span>
                     <div className="mt-2">
                         {canEditCredentials ? (

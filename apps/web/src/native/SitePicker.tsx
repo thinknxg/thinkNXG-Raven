@@ -188,7 +188,7 @@ export const SitePicker = () => {
             <img src={logo} alt="Raven" className="size-14 self-start" />
             <div className="flex flex-col gap-1">
                 <h1 className="text-2xl-semibold text-ink-gray-9">
-                    {sites.length === 0 ? _("Welcome to Raven") : sharing ? _("Share to") : _("Choose a site")}
+                    {sites.length === 0 ? _("Welcome to thinkNXG Raven") : sharing ? _("Share to") : _("Choose a site")}
                 </h1>
                 {sites.length === 0 && <p className="text-p-base text-ink-gray-6">{_("Sign in to your team's site.")}</p>}
             </div>
@@ -224,8 +224,8 @@ export const SitePicker = () => {
                             {typeof error?.error === "string" && error.error}
                             {error?.error instanceof PickerError && error.error.kind === "no-address" && _("Enter a site address.")}
                             {error?.error instanceof PickerError && error.error.kind === "unreachable" && _("Could not reach this site.")}
-                            {error?.error instanceof PickerError && error.error.kind === "not-raven" && _("This does not look like a Raven site.")}
-                            {error?.error instanceof PickerError && error.error.kind === "site-too-old" && _("This site runs an older Raven. Ask its admin to update.")}
+                            {error?.error instanceof PickerError && error.error.kind === "not-raven" && _("This does not look like a thinkNXG Raven site.")}
+                            {error?.error instanceof PickerError && error.error.kind === "site-too-old" && _("This site runs an older thinkNXG Raven. Ask its admin to update.")}
                             {error?.error instanceof PickerError && error.error.kind === "no-client" && _("This site has no OAuth client for the app. Ask its admin to set one up in Raven Settings.")}
                         </AlertDialogDescription>
                     </AlertDialogHeader>

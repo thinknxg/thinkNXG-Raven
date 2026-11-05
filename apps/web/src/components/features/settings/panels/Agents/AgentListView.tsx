@@ -91,7 +91,7 @@ const AgentListView = ({ onOpen, onCreate }: { onOpen: (id: string) => void; onC
                                 <EmptyHeader>
                                     <EmptyTitle>{_("Get started with agents")}</EmptyTitle>
                                     <EmptyDescription>
-                                        {_("Create agents to run automations on Raven.")}
+                                        {_("Create agents to run automations on thinkNXG Raven.")}
                                         <br />
                                         {_("Send reminders, document notifications and run AI assistants.")}
                                     </EmptyDescription>

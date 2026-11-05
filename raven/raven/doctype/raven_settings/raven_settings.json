@@ -79,7 +79,7 @@
   {
    "fieldname": "frappe_hr_tab",
    "fieldtype": "Tab Break",
-   "label": "Frappe HR"
+   "label": "thinkNXG HR"
   },
   {
    "default": "0",
@@ -293,13 +293,13 @@
   {
    "fieldname": "frappe_integrations_tab",
    "fieldtype": "Tab Break",
-   "label": "Frappe Integrations"
+   "label": "thinkNXG Integrations"
   },
   {
-   "description": "Site URLs of where Frappe Meet is hosted to show previews of meeting links. Separated by newline characters.",
+   "description": "Site URLs of where thinkNXG Meet is hosted to show previews of meeting links. Separated by newline characters.",
    "fieldname": "frappe_meet_hosted_urls",
    "fieldtype": "Small Text",
-   "label": "Frappe Meet Hosted URLs"
+   "label": "thinkNXG Meet Hosted URLs"
   },
   {
    "description": "The system will not generate link previews for these links if they appear in messages.",

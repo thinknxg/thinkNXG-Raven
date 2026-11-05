@@ -13,9 +13,10 @@ import { siteUrl } from "@lib/site"
 import ravenLogo from "@raven/public/raven_logo.svg"
 
 const links = () => [
-    { label: _("Documentation"), href: "https://docs.frappe.io/raven" },
-    { label: _("GitHub"), href: "https://github.com/frappe/raven" },
-    { label: _("Website"), href: "https://ravenchat.ai" },
+    { label: _("Documentation"), href: "https://docs.thinknxg.com/thinknxgraven" },
+    { label: _("GitHub"), href: "https://github.com/thinknxg/thinkNXG-Raven" },
+    { label: _("thinkNXG Support"), href: "https://thinknxg.com/thinkdesk" },
+    { label: _("Website"), href: "https://thinknxg.com" },
 ]
 
 /** Version of every installed app, plus links. Same footer as the mobile profile page. */
@@ -38,13 +39,13 @@ export const About = () => {
         <>
             <SettingsPanelHeader>
                 <SettingsPanelTitle>{_("About")}</SettingsPanelTitle>
-                <SettingsPanelDescription>{_("A piece of craft by Frappe.")}</SettingsPanelDescription>
+                <SettingsPanelDescription>{_("A piece of craft by thinkNXG.")}</SettingsPanelDescription>
             </SettingsPanelHeader>
             <SettingsPanelContent className="min-h-0 gap-6">
                 <div className="flex items-center gap-3">
-                    <img src={ravenLogo} alt="Raven" className="h-10 w-10" />
+                    <img src={ravenLogo} alt="thinkNXG Raven" className="h-10 w-10" />
                     <div className="flex flex-col">
-                        <span className="text-base font-semibold text-ink-gray-9">Raven</span>
+                        <span className="text-base font-semibold text-ink-gray-9">thinkNXG Raven</span>
                         {versions[0]?.app === "raven" && (
                             <span className="font-numeric text-sm text-ink-gray-5">v{versions[0].version}</span>
                         )}
@@ -85,7 +86,7 @@ export const About = () => {
                 <Separator />
 
                 {/* The Frappe app's own artwork, which only the site has. */}
-                <img src={siteUrl("/assets/frappe/images/frappe-comp-logo.svg")} alt="Frappe" className="h-5 w-auto self-start dark:invert" />
+                <img src={siteUrl("/assets/frappe/images/frappe-comp-logo.svg")} alt="thinkNXG" className="h-5 w-auto self-start dark:invert" />
             </SettingsPanelContent>
         </>
     )

@@ -723,6 +723,6 @@ const PROVIDERS: Array<(href: string) => ReactElement | null> = [
     },
     (href) => {
         const frappeMeet = matchFrappeMeet(href)
-        return frappeMeet ? <MeetingCard href={href} brand={BRAND.frappeMeet} label={_("Frappe Meet")} detail={frappeMeet.detail} /> : null
+        return frappeMeet ? <MeetingCard href={href} brand={BRAND.frappeMeet} label={_("thinkNXG Meet")} detail={frappeMeet.detail} /> : null
     },
 ]

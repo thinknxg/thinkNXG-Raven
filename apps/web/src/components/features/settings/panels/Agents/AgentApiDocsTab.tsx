@@ -49,7 +49,7 @@ ${botVarName}.send_message(channel_id="channel-name", text="This is a test messa
     return (
         <div className="flex flex-col gap-3">
             <p className="text-base text-ink-gray-8">
-                {_("The following code samples show how to use the bot/agent in a Frappe app or Server Script.")}
+                {_("The following code samples show how to use the bot/agent in a thinkNXG app or Server Script.")}
             </p>
 
             <div className="flex flex-col gap-1">

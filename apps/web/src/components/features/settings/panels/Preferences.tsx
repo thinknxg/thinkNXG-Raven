@@ -184,7 +184,7 @@ const Preferences = () => {
                                 <div className="flex flex-col">
                                     <SettingsFormLabel htmlFor="quiet_hours_nudge">{_("Messaging after hours")}</SettingsFormLabel>
                                     <SettingsFormDescription>
-                                        {_("Choose what Raven should do when you message someone outside working hours ({0}). Silent messages don't ping anyone - they'll see it when they're back.", [formatWorkingHoursRange(timeFormat) ?? ""])}
+                                        {_("Choose what thinkNXG Raven should do when you message someone outside working hours ({0}). Silent messages don't ping anyone - they'll see it when they're back.", [formatWorkingHoursRange(timeFormat) ?? ""])}
                                     </SettingsFormDescription>
                                 </div>
                                 <div className="min-w-52 flex justify-end">
